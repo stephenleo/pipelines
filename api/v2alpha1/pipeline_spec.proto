@@ -1045,6 +1045,7 @@ message PlatformSpec {
 message SinglePlatformSpec {
   // Mirrors PipelineSpec.deployment_spec structure
   PlatformDeploymentConfig deployment_spec = 1;
+  google.protobuf.Struct config = 2;
 }
 
 
